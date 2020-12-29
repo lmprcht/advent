@@ -12,7 +12,7 @@ const shuffle = a => {
       nr: 1,
       img: "./img/1.jpg",
       text:
-        "Why did the programmer quit his job? Because he didn't get arrays",
+        "Who delivers presents to baby sharks at Christmas? Santa Jaws!",
       open: false
     },
     {
@@ -20,7 +20,7 @@ const shuffle = a => {
       nr: 2,
       img: "./img/2.jpg",
       text:
-        "Why do Java programmers have to wear glasses? Because they don't C#",
+        "What do they sing at a snowman’s birthday party? Freeze a jolly good fellow!",
       open: false
     },
     {
@@ -28,7 +28,7 @@ const shuffle = a => {
       nr: 3,
       img: "./img/3.jpg",
       text:
-        "Real programmers count from 0",
+        "What do Santa’s little helpers learn at school? The elf-abet!",
       open: false
     },
     {
@@ -36,7 +36,7 @@ const shuffle = a => {
       nr: 4,
       img: "./img/4.jpg",
       text:
-        "Chuck Norris writes code... that optimizes itself",
+        "What kind of motorbike does Santa ride? A Holly Davidson!",
       open: false
     },
     {
@@ -44,7 +44,7 @@ const shuffle = a => {
       nr: 5,
       img: "./img/5.jpg",
       text:
-        "A foo walks into a bar, takes a look around and says 'Hello world!'",
+        "What do you get if you cross Santa with a duck? A Christmas Quacker!",
       open: false
     },
     {
@@ -52,7 +52,7 @@ const shuffle = a => {
       nr: 6,
       img: "./img/6.jpg",
       text:
-        "The programmer got stuck in thte shower because the instructions on thte shampoo bottle said... Lather,Rinse, Repeat.",
+        "What goes “Oh, Oh, Oh”? Santa walking backwards!",
       open: false
     },
     {
@@ -60,7 +60,7 @@ const shuffle = a => {
       nr: 7,
       img: "./img/7.jpg",
       text:
-        "A SQL query goes into a bar, walks up to two tables and asks...'Can I join you?'",
+        "Why does Santa have three gardens? So he can ‘ho ho ho’!",
       open: false
     },
     {
@@ -68,7 +68,7 @@ const shuffle = a => {
       nr: 8,
       img: "./img/8.jpg",
       text:
-        "if (sad() === true { sad. stop (); beAwesome();}",
+        "What is the best Christmas present in the world? A broken drum, you just can’t beat it!",
       open: false
     },
     {
@@ -76,7 +76,7 @@ const shuffle = a => {
       nr: 9,
       img: "./img/9.jpg",
       text:
-        "['hip', 'hip']",
+        "What do snowmen wear on their heads? Ice caps!",
       open: false
     },
     {
@@ -84,119 +84,119 @@ const shuffle = a => {
       nr: 10,
       img: "./img/10.jpg",
       text:
-        "I love pressing the F5 key, it's refreshing",
+        "What do you get when you cross a snowman with a vampire? Frostbite!",
       open: false
     },
     {
       id: "hatch-11",
       nr: 11,
-      img: "./img/11.jpg",
+      img: "./img/1.jpg",
       text:
-        ".",
+        "Why don’t you ever see Santa in hospital? Because he has private elf care!",
       open: false
     },
     {
       id: "hatch-12",
       nr: 12,
-      img: "./img/12.jpg",
+      img: "./img/2.jpg",
       text:
-        ".",
+        "What did the beaver say to the Christmas Tree? Nice gnawing you!",
       open: false
     },
     {
       id: "hatch-13",
       nr: 13,
-      img: "./img/13.jpg",
+      img: "./img/3.jpg",
       text:
-        ".",
+        "What do snowmen have for breakfast? Snowflakes!",
       open: false
     },
     {
       id: "hatch-14",
       nr: 14,
-      img: "./img/14.jpg",
+      img: "./img/4.jpg",
       text:
-        ".",
+        "Who delivers presents to cats? Santa Paws!",
       open: false
     },
     {
       id: "hatch-15",
       nr: 15,
-      img: "./img/15.jpg",
+      img: "./img/5.jpg",
       text:
-        ".",
+        "What’s a child’s favourite king at Christmas? A stoc-king!",
       open: false
     },
     {
       id: "hatch-16",
       nr: 16,
-      img: "./img/16.jpg",
+      img: "./img/6.jpg",
       text:
-        ".",
+        "How does Darth Vader enjoy his Christmas Turkey? On the dark side!",
       open: false
     },
     {
-      id: "hatch-17",
+      id: "hatch-7",
       nr: 17,
       img: "./img/17.jpg",
       text:
-        ".",
+        "What cars do elves drive? Toyotas!",
       open: false
     },
     {
-      id: "hatch-18",
+      id: "hatch-8",
       nr: 18,
       img: "./img/18.jpg",
       text:
-        ".",
+        "What do you call an obnoxious reindeer? Rude-olph!",
       open: false
     },
     {
-      id: "hatch-19",
+      id: "hatch-9",
       nr: 19,
       img: "./img/19.jpg",
       text:
-        ".",
+        "Why did Santa get a parking ticket on Christmas Eve? He left his sleigh in a snow parking zone!",
       open: false
     },
     {
       id: "hatch-20",
       nr: 20,
-      img: "./img/20.jpg",
+      img: "./img/10.jpg",
       text:
-        ".",
+        "What is the most competitive season? Win-ter!",
       open: false
     },
     {
       id: "hatch-21",
       nr: 21,
-      img: "./img/21.jpg",
+      img: "./img/1.jpg",
       text:
-        ".",
+        "What do you call buying a piano for the holidays? Christmas Chopin!",
       open: false
     },
     {
       id: "hatch-22",
       nr: 22,
-      img: "./img/22.jpg",
+      img: "./img/2.jpg",
       text:
-        ".",
+        "When is a boat just like snow? When it’s adrift!",
       open: false
     },
     {
       id: "hatch-23",
       nr: 23,
-      img: "./img/23.jpg",
+      img: "./img/3.jpg",
       text:
-        ".",
+        "What did the stamp say to the Christmas card? Stick with me and we'll go places!",
       open: false
     },
     {
       id: "hatch-24",
       nr: 24,
-      img: "./img/24.jpg",
+      img: "./img/4.jpg",
       text:
-        ".",
+        "Why is it getting harder to buy Advent calendars? Their days are numbered!",
       open: false
     },
   ];

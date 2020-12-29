@@ -3,10 +3,12 @@ import { createGlobalStyle } from "styled-components";
 import { StyledApp } from "./AppStyles";
 import { createCalendar } from "./helpers";
 import Door from "./door";
+import Appbackground from "./img/calendar_backdrop.jpg"
+
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: center / cover url("./img/calendar_backdrop.jpg");
+    background: center / cover url(${Appbackground});
     margin: 0;
   }
 `;
@@ -15,7 +17,7 @@ function App() {
   const [doors, setDoors] = useState([]);
 
   useEffect(() => {
-    // Could use if statements instead off course
+    
     const calendar = localStorage.calendar
       ? JSON.parse(localStorage.calendar)
       : createCalendar();
@@ -25,7 +27,7 @@ function App() {
 
   // Store calendar in localStorage
   useEffect(() => {
-    // Could use if statements instead off course
+    
     doors.length && localStorage.setItem("calendar", JSON.stringify(doors));
   }, [doors]);
 
@@ -33,7 +35,7 @@ function App() {
     const updatedDoors = doors.map(door =>
       door.id === id ? { ...door, open: !door.open } : door
     );
-    setHatches(updatedDoors);
+    setDoors(updatedDoors);
   };
 
   return (

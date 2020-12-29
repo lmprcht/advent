@@ -2,7 +2,7 @@ import styled from "styled-components";
 import doorBackdrop from "./img/door_backdrop.jpg";
 
 export const StyledDoor = styled.div`
-  padding-top: 100%; /* padding-top is based on the width - believe it or not!!! */
+  padding-top: 100%;
   position: relative;
   cursor: pointer;
   .front {
