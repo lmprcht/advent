@@ -11,6 +11,13 @@ const GlobalStyle = createGlobalStyle`
     background: center / cover url(${Appbackground});
     margin: 0;
   }
+  header {
+    display: flex,
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
 `;
 
 function App() {
@@ -41,10 +48,10 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <StyledApp>
       <header>
         <h1>React Advent Calendar</h1>
         </header>
+      <StyledApp>
         {doors.map(door => (
           <Door
             key={door.id}
