@@ -6,6 +6,10 @@ A fun and simple advent calendar
 
 HTML, CSS, javascript, React and styled-components 
 
+## Demo
+
+ 'https://rosemaryly.github.io/AdventCalendar/'
+
 ## Available Scripts
 
 In the project directory, you can run:
