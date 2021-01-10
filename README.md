@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Advent Calendar 
+
+A fun and simple advent calendar
+
+## Made with
+
+HTML, CSS, javascript, React and styled-components 
 
 ## Available Scripts
 
