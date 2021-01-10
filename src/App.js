@@ -42,6 +42,9 @@ function App() {
     <>
       <GlobalStyle />
       <StyledApp>
+      <header>
+        <h1>React Advent Calendar</h1>
+        </header>
         {doors.map(door => (
           <Door
             key={door.id}
