@@ -57,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
     text-align: center;
     
     h1 {
-      font-size: 500%;
+      font-size: 300%;
       color: white;
       font-family: 'Yatra One', sans-serif;
     }
