@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from "react";
 import {createGlobalStyle} from "styled-components";
 import Modal from 'simple-react-modal'
-import {createCalendar} from "./helpers";
+import {bgImages, createCalendar} from "./helpers";
 import Door from "./door";
 import Config from './config.json';
 import {StyledApp} from "./AppStyles";
+import useImagePreloader from "./useImagePreloader";
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -28,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
+    overflow-y: scroll;
     margin: 0;
    
     &:before {
@@ -64,6 +66,7 @@ function App() {
   const [doors, setDoors] = useState([]);
   const [modalShow, setModalShow] = useState(false);
   const [modalContent, setModalContent] = useState(<p></p>);
+  const { imagesPreloaded } = useImagePreloader(bgImages);
 
   useEffect(() => {
     const calendar = localStorage.calendar
@@ -73,10 +76,14 @@ function App() {
     for (let i = 0; i < calendar.length; i++) {
       const c = calendar[i];
 
+      const lifeData = Config.doors.find(d => d.id === c.id);
+
+      if (lifeData === undefined) continue;
+
       // Keep text and author updated, in case, I change my mind ;)
-      c.type = Config.doors[i]?.type ?? 'text';
-      c.content = Config.doors[i]?.content ?? '';
-      c.author = Config.doors[i]?.author ?? '';
+      c.type = lifeData.type ?? 'text';
+      c.content = lifeData.content ?? '';
+      c.author = lifeData.author ?? '';
 
       calendar[i] = c;
     }
@@ -90,7 +97,7 @@ function App() {
   }, [doors]);
 
   const handleFlipDoor = id => {
-    const date = new Date(2022, 11, id);
+    const date = new Date(2021, 11, id);
 
     if (date.getTime() > Date.now()) {
       openModal(
@@ -125,7 +132,7 @@ function App() {
         <h1>Feminist Advent Calendar</h1>
       </header>
       <StyledApp>
-        {doors.map(door => (
+        {imagesPreloaded && doors.map(door => (
           <Door
             key={door.id}
             doorData={door}

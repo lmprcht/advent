@@ -19,7 +19,7 @@ const shuffle = a => {
   return a;
 };
 
-const bgImages = [
+export const bgImages = [
   Door1bkg,
   Door2bkg,
   Door3bkg,
@@ -40,7 +40,6 @@ export const createCalendar = () => {
   // Add needed attributes
   for (let i = 0; i < doors.length; i++)
   {
-    doors[i].id = i + 1;
     doors[i].bg = randomImg();
     doors[i].open = false;
   }

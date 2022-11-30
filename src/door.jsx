@@ -3,7 +3,7 @@ import {StyledDoor} from "./doorStyles";
 
 const DoorContent = ({type, content, author}) => {
   return (
-    <div className="content">
+    <div style={{maxWidth: "90%", margin: "auto"}} className="content">
       {type === "image" ? <img src={require(`./img/${content}`)} alt=""/> : ""}
       {type === "text" ? <p>{content}</p> : ""}
 
@@ -30,6 +30,7 @@ export default ({doorData: {id, bg, type, content, author, open}, handleClick, h
         <p>{id}</p>
       </div>
       <div className={open ? "back open" : "back"}>
+        <span style={{position: "absolute", top: 20, left: 20}}>{id}</span>
         <i className="fullscreen" onClick={handleFullscreen}></i>
         <DoorContent type={type} content={content} author={author} />
       </div>
