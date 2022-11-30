@@ -1,6 +1,6 @@
 {
-  "homepage": "http://RosemaryLy.github.io/AdventCalendar",
-  "name": "adventcalendar",
+  "homepage": "https://lmprcht.github.io/advent",
+  "name": "advent",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
