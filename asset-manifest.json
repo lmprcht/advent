@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/advent/static/js/main.541cb4c1.chunk.js",
+    "main.js.map": "/advent/static/js/main.541cb4c1.chunk.js.map",
+    "runtime-main.js": "/advent/static/js/runtime-main.587eeb21.js",
+    "runtime-main.js.map": "/advent/static/js/runtime-main.587eeb21.js.map",
+    "static/js/2.c635b16e.chunk.js": "/advent/static/js/2.c635b16e.chunk.js",
+    "static/js/2.c635b16e.chunk.js.map": "/advent/static/js/2.c635b16e.chunk.js.map",
+    "index.html": "/advent/index.html",
+    "precache-manifest.154eb6122f0beb57ecc1c3cd37b5175f.js": "/advent/precache-manifest.154eb6122f0beb57ecc1c3cd37b5175f.js",
+    "service-worker.js": "/advent/service-worker.js",
+    "static/js/2.c635b16e.chunk.js.LICENSE.txt": "/advent/static/js/2.c635b16e.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/advent/static/media/1.51dc08ce.jpg",
+    "static/media/10.jpg": "/advent/static/media/10.8c998444.jpg",
+    "static/media/2.jpg": "/advent/static/media/2.57c1030c.jpg",
+    "static/media/3.jpg": "/advent/static/media/3.bef801ea.jpg",
+    "static/media/4.jpg": "/advent/static/media/4.db274fb5.jpg",
+    "static/media/5.jpg": "/advent/static/media/5.8e02ef9f.jpg",
+    "static/media/6.jpg": "/advent/static/media/6.afdbae96.jpg",
+    "static/media/7.jpg": "/advent/static/media/7.c0f5972b.jpg",
+    "static/media/8.jpg": "/advent/static/media/8.99db5f49.jpg",
+    "static/media/9.jpg": "/advent/static/media/9.e5bb22b4.jpg",
+    "static/media/anything_you_can_do_i_can_do_bleeding.png": "/advent/static/media/anything_you_can_do_i_can_do_bleeding.13a04aaf.png",
+    "static/media/calendar_backdrop.jpg": "/advent/static/media/calendar_backdrop.15ec9655.jpg",
+    "static/media/delica_ela_en_paz.png": "/advent/static/media/delica_ela_en_paz.727453ae.png",
+    "static/media/door_backdrop.jpg": "/advent/static/media/door_backdrop.a87ae579.jpg",
+    "static/media/feminism_symbol.svg": "/advent/static/media/feminism_symbol.781a1276.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.587eeb21.js",
+    "static/js/2.c635b16e.chunk.js",
+    "static/js/main.541cb4c1.chunk.js"
+  ]
+}
