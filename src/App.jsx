@@ -7,6 +7,8 @@ import Config from './config.json';
 import {StyledApp} from "./AppStyles";
 import useImagePreloader from "./useImagePreloader";
 
+export const IS_DEV = false;
+
 const GlobalStyle = createGlobalStyle`
   html {
     font-size: 1.13em;
@@ -66,7 +68,7 @@ function App() {
   const [doors, setDoors] = useState([]);
   const [modalShow, setModalShow] = useState(false);
   const [modalContent, setModalContent] = useState(<p></p>);
-  const { imagesPreloaded } = useImagePreloader(bgImages);
+  const {imagesPreloaded} = useImagePreloader(bgImages);
 
   useEffect(() => {
     const calendar = localStorage.calendar
@@ -88,7 +90,10 @@ function App() {
       calendar[i] = c;
     }
 
-    setDoors(calendar);
+    if (IS_DEV)
+      setDoors(createCalendar());
+    else
+      setDoors(calendar);
   }, []);
 
   // Store calendar in localStorage
@@ -97,9 +102,9 @@ function App() {
   }, [doors]);
 
   const handleFlipDoor = id => {
-    const date = new Date(2021, 11, id);
+    const date = new Date(2022, 11, id);
 
-    if (date.getTime() > Date.now()) {
+    if (date.getTime() > Date.now() && !IS_DEV) {
       openModal(
         <div>
           <h2>Naa, du wirst doch wohl nicht...</h2>
