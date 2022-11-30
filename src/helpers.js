@@ -42,7 +42,7 @@ export const createCalendar = () => {
   {
     doors[i].id = i + 1;
     doors[i].bg = randomImg();
-    doors[i].open = true;
+    doors[i].open = false;
   }
 
   return shuffle(doors);

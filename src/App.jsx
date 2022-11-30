@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {createGlobalStyle} from "styled-components";
 import Modal from 'simple-react-modal'
-import {StyledApp} from "./AppStyles";
 import {createCalendar} from "./helpers";
 import Door from "./door";
 import Config from './config.json';
+import {StyledApp} from "./AppStyles";
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     text-align: center;
     
     h1 {
-      font-size: 4em;
+      font-size: 500%;
       color: white;
       font-family: 'Yatra One', sans-serif;
     }
@@ -70,8 +70,7 @@ function App() {
       ? JSON.parse(localStorage.calendar)
       : createCalendar();
 
-    for (let i = 0; i < calendar.length; i++)
-    {
+    for (let i = 0; i < calendar.length; i++) {
       const c = calendar[i];
 
       // Keep text and author updated, in case, I change my mind ;)
@@ -82,8 +81,7 @@ function App() {
       calendar[i] = c;
     }
 
-    //setDoors(calendar);
-    setDoors(createCalendar());
+    setDoors(calendar);
   }, []);
 
   // Store calendar in localStorage
@@ -92,10 +90,15 @@ function App() {
   }, [doors]);
 
   const handleFlipDoor = id => {
-    const date = new Date(2021, 11, id);
+    const date = new Date(2022, 11, id);
 
     if (date.getTime() > Date.now()) {
-      console.log(date.toString());
+      openModal(
+        <div>
+          <h2>Naa, du wirst doch wohl nicht...</h2>
+          <p>Heute ist doch noch gar nicht der {id}. Dezember?!</p>
+        </div>
+      );
 
       return;
     }
@@ -121,12 +124,7 @@ function App() {
       <header>
         <h1>Feminist Advent Calendar</h1>
       </header>
-      <div style={{
-        display: "grid",
-        gridGap: 20,
-        gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))",
-        padding: 40,
-      }}>
+      <StyledApp>
         {doors.map(door => (
           <Door
             key={door.id}
@@ -135,7 +133,7 @@ function App() {
             handleFullscreenClick={openModal}
           />
         ))}
-      </div>
+      </StyledApp>
       <Modal
         show={modalShow}
         onClose={closeModal}
