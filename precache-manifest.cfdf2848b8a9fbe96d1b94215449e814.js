@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b0634e9aa29f200dc746033e4765a4b",
+    "revision": "ff40a00a5d22d9d55ccddba4d1aa7183",
     "url": "/advent/index.html"
   },
   {
