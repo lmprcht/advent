@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7e2698572104ed0e2c4e902829ee601",
+    "revision": "092e234668359199ecbb71c26b98ba04",
     "url": "/advent/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/advent/static/js/2.559f9ba3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff5f3dc73aab1f1c1dd8",
-    "url": "/advent/static/js/main.2b25fc18.chunk.js"
+    "revision": "1fc822e5b83dabfef329",
+    "url": "/advent/static/js/main.78b1f664.chunk.js"
   },
   {
     "revision": "ce3a0813bb47c553e9be",
