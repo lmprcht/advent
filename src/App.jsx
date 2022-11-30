@@ -7,7 +7,7 @@ import Config from './config.json';
 import {StyledApp} from "./AppStyles";
 import useImagePreloader from "./useImagePreloader";
 
-export const IS_DEV = false;
+export const IS_DEV = true;
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -152,15 +152,30 @@ function App() {
         style
         containerStyle={{
           maxWidth: "90vw",
-          maxHeight: "90vh",
+          maxHeight: "80vh",
           width: "100%",
           height: "100%",
-          margin: "5vh auto",
+          margin: "10vh auto",
           padding: 0,
           textAlign: "center",
           overflow: "hidden",
         }}
       >
+        <span
+          style={{
+            position: "absolute",
+            top: 20,
+            right: 20,
+            height: 60,
+            width: 60,
+            borderRadius: "100%",
+            background: "rgba(255, 255, 255, .5)",
+            fontSize: "2em",
+          }}
+          onClick={closeModal}
+        >
+          X
+        </span>
         <div style={{
           height: "100%",
           display: "flex",
