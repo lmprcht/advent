@@ -7,7 +7,7 @@ import Config from './config.json';
 import {StyledApp} from "./AppStyles";
 import useImagePreloader from "./useImagePreloader";
 
-export const IS_DEV = true;
+export const IS_DEV = false;
 
 const GlobalStyle = createGlobalStyle`
   html {
