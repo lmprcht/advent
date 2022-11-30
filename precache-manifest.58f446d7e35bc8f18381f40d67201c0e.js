@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "820ca48908ea3454fec5cbf56e5e8eba",
+    "revision": "9d11b4572900a1c2401412f42e9d1076",
     "url": "/advent/index.html"
   },
   {
-    "revision": "1615764828aef96200cb",
-    "url": "/advent/static/js/2.7ff51ee1.chunk.js"
+    "revision": "8efbcca3f1ccc92ef3ba",
+    "url": "/advent/static/js/2.f9837160.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/advent/static/js/2.7ff51ee1.chunk.js.LICENSE.txt"
+    "url": "/advent/static/js/2.f9837160.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdd9280a28b97a2171fd",
-    "url": "/advent/static/js/main.de1ae8f7.chunk.js"
+    "revision": "bf147440997cdb46a5fb",
+    "url": "/advent/static/js/main.49b12111.chunk.js"
   },
   {
     "revision": "ce3a0813bb47c553e9be",
