@@ -7,7 +7,7 @@ import Config from './config.json';
 import {StyledApp} from "./AppStyles";
 import useImagePreloader from "./useImagePreloader";
 
-export const IS_DEV = false;
+export const IS_DEV = true;
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -167,6 +167,7 @@ function App() {
             top: 20,
             right: 20,
             height: 60,
+            lineHeight: "60px",
             width: 60,
             borderRadius: "100%",
             background: "rgba(255, 255, 255, .5)",
