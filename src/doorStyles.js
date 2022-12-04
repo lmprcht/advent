@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import doorBackdrop from "./img/feminism_symbol.svg";
+import fullscreenIcon from "./img/full-screen.png";
 
 export const StyledDoor = styled.div`
   padding-top: 100%;
@@ -94,6 +95,20 @@ export const StyledDoor = styled.div`
           content: close-quote;
         }
       }
+      
+      .readAll {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgb(229, 109, 204);
+        background: linear-gradient(180deg,rgba(229, 109, 204,0) 0%,rgba(229, 109, 204,1) 33%);
+        width: 100%;
+        padding: 18% 0 15%;
+        color: white;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 1.5em;
+      }
   
       .author {
         position: absolute;
@@ -104,16 +119,15 @@ export const StyledDoor = styled.div`
       
     .fullscreen {
       &:after {
-        content: "[]";
+        content: "";
         display: block;
-        background: rgba(255, 255, 255, .6);
+        background: no-repeat center center url(${fullscreenIcon});
+        background-size: 24px;
+        opacity: .7;
         text-align: center;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        border-radius: 100%;
-        color: black;
-        border: 1px solid black;
+        width: 24px;
+        height: 24px;
+        color: white;
         position: absolute;
         top: 20px;
         right: 20px; 
