@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/advent/static/js/main.a06de77b.chunk.js",
-    "main.js.map": "/advent/static/js/main.a06de77b.chunk.js.map",
+    "main.js": "/advent/static/js/main.132b41a1.chunk.js",
+    "main.js.map": "/advent/static/js/main.132b41a1.chunk.js.map",
     "runtime-main.js": "/advent/static/js/runtime-main.587eeb21.js",
     "runtime-main.js.map": "/advent/static/js/runtime-main.587eeb21.js.map",
-    "static/js/2.1f29f2ed.chunk.js": "/advent/static/js/2.1f29f2ed.chunk.js",
-    "static/js/2.1f29f2ed.chunk.js.map": "/advent/static/js/2.1f29f2ed.chunk.js.map",
+    "static/js/2.88fca73d.chunk.js": "/advent/static/js/2.88fca73d.chunk.js",
+    "static/js/2.88fca73d.chunk.js.map": "/advent/static/js/2.88fca73d.chunk.js.map",
     "index.html": "/advent/index.html",
-    "precache-manifest.7cd1b9dd550fe0cb4af42222f29cf43a.js": "/advent/precache-manifest.7cd1b9dd550fe0cb4af42222f29cf43a.js",
+    "precache-manifest.74373533a47f4626044defde5a72280a.js": "/advent/precache-manifest.74373533a47f4626044defde5a72280a.js",
     "service-worker.js": "/advent/service-worker.js",
-    "static/js/2.1f29f2ed.chunk.js.LICENSE.txt": "/advent/static/js/2.1f29f2ed.chunk.js.LICENSE.txt",
+    "static/js/2.88fca73d.chunk.js.LICENSE.txt": "/advent/static/js/2.88fca73d.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/advent/static/media/1.51dc08ce.jpg",
     "static/media/10.jpg": "/advent/static/media/10.8c998444.jpg",
     "static/media/2.jpg": "/advent/static/media/2.57c1030c.jpg",
@@ -24,11 +24,13 @@
     "static/media/calendar_backdrop.jpg": "/advent/static/media/calendar_backdrop.15ec9655.jpg",
     "static/media/delica_ela_en_paz.png": "/advent/static/media/delica_ela_en_paz.727453ae.png",
     "static/media/door_backdrop.jpg": "/advent/static/media/door_backdrop.a87ae579.jpg",
-    "static/media/feminism_symbol.svg": "/advent/static/media/feminism_symbol.781a1276.svg"
+    "static/media/feminism_symbol.svg": "/advent/static/media/feminism_symbol.781a1276.svg",
+    "static/media/smashthepatriarchy.jpg": "/advent/static/media/smashthepatriarchy.738f2f8e.jpg",
+    "static/media/vagina_ornament.jpeg": "/advent/static/media/vagina_ornament.0edff875.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.587eeb21.js",
-    "static/js/2.1f29f2ed.chunk.js",
-    "static/js/main.a06de77b.chunk.js"
+    "static/js/2.88fca73d.chunk.js",
+    "static/js/main.132b41a1.chunk.js"
   ]
 }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "742bc7bf6127cf8f1c39734671f0492e",
+    "revision": "e80e0a310a17164302f75feeb38473a9",
     "url": "/advent/index.html"
   },
   {
-    "revision": "9759799240ef2c66cfac",
-    "url": "/advent/static/js/2.1f29f2ed.chunk.js"
+    "revision": "39d98168f0869752e55b",
+    "url": "/advent/static/js/2.88fca73d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/advent/static/js/2.1f29f2ed.chunk.js.LICENSE.txt"
+    "url": "/advent/static/js/2.88fca73d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c84b375f2368b8740388",
-    "url": "/advent/static/js/main.a06de77b.chunk.js"
+    "revision": "6e774cb5c7b7eb5320db",
+    "url": "/advent/static/js/main.132b41a1.chunk.js"
   },
   {
     "revision": "ce3a0813bb47c553e9be",
@@ -78,5 +78,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "781a1276ad0c7d42838e847ad2d4f96b",
     "url": "/advent/static/media/feminism_symbol.781a1276.svg"
+  },
+  {
+    "revision": "738f2f8ed367d7f40a70c33ca28e820d",
+    "url": "/advent/static/media/smashthepatriarchy.738f2f8e.jpg"
+  },
+  {
+    "revision": "0edff8751c8e7778baa7a7c122e23537",
+    "url": "/advent/static/media/vagina_ornament.0edff875.jpeg"
   }
 ]);
