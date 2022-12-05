@@ -86,9 +86,9 @@
     },
     {
       "id": 15,
-      "type": "text",
-      "content": "Was wir wollen, ist mehr als eine Frauen-, es ist eine Menschheitsfrage.",
-      "author": "Luise Büchner (1872)"
+      "type": "image",
+      "content": "vagina_ornament.jpeg",
+      "author": ""
     },
     {
       "id": 16,
@@ -140,9 +140,9 @@
     },
     {
       "id": 24,
-      "type": "text",
-      "content": "Kämpfe für die Dinge, die dir wichtig sind. Aber kämpfe so, dass sich dir andere anschließen wollen.",
-      "author": "Ruth Bader Ginsburg"
+      "type": "image",
+      "content": "smashthepatriarchy.jpg",
+      "author": ""
     }
   ]
 }
