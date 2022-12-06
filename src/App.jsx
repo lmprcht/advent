@@ -75,17 +75,23 @@ function App() {
       ? JSON.parse(localStorage.calendar)
       : createCalendar();
 
+    const now = Date.now();
     for (let i = 0; i < calendar.length; i++) {
       const c = calendar[i];
+      const date = new Date(2022, 11, c.id);
 
       const lifeData = Config.doors.find(d => d.id === c.id);
 
       if (lifeData === undefined) continue;
 
-      // Keep text and author updated, in case, I change my mind ;)
+      // Keep content and author updated, in case, I change my mind ;)
       c.type = lifeData.type ?? 'text';
       c.content = lifeData.content ?? '';
       c.author = lifeData.author ?? '';
+
+      // Close all doors, that should not be enabled due to the current date
+      if (date.getTime() > now)
+        c.open = false;
 
       calendar[i] = c;
     }
